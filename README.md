@@ -10,9 +10,9 @@ Testing is an important part of the development process and many organizations p
 
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
-## How to run the game in your machine
+## How to run this application in your machine
 
-1.  [Download](https://github.com/ronanmoris/frontend-nanodegree-feedreader-master) by clicking on the green button on the right (Clone or Download) or [Clone](https://github.com/ronanmoris/frontend-nanodegree-feedreader-master) the Repository.
+1.  [Download](https://github.com/ronanmoris/frontend-nanodegree-feedreader) by clicking on the green button on the right (Clone or Download) or [Clone](https://github.com/ronanmoris/frontend-nanodegree-feedreader) the Repository.
 2.  Open the `index.html` file in your browser.
 
 ## Requirements to complete the project
