@@ -76,10 +76,9 @@ $(
         loadFeed(0, done);
       });
 
-      it("makes sure there is at least one feed in the .feed container", function(done) {
-        let articleEntry = $(".entry");
+      it("makes sure there is at least one feed in the .feed container", function() {
+        let articleEntry = $(".feed .entry");
         expect(articleEntry.length).toBeGreaterThan(0);
-        done();
       });
     });
 
@@ -87,21 +86,20 @@ $(
       /* test that ensures when a new feed is loaded by the loadFeed
         * function that the content actually changes.
         */
-      let previousFeed, currentFeed;
+
+      let previousFeeds, currentFeeds;
       beforeEach(function(done) {
         loadFeed(0, function() {
-          previousFeed = $(".entry").html();
-          done();
+          previousFeeds = $(".feed").text();
           loadFeed(1, function() {
-            currentFeed = $(".entry").html();
+            currentFeeds = $(".feed").text();
             done();
           });
         });
       }); //closes beforeEach
 
-      it("ensures that content/feeds will be displayed if changed", function(done) {
-        expect(previousFeed).not.toEqual(currentFeed);
-        done();
+      it("ensures that content/feeds will be displayed if changed", function() {
+        expect(previousFeeds).not.toEqual(currentFeeds);
       });
     }); //closes describe New Feed Selection
   })()
