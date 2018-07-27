@@ -9,7 +9,7 @@ The task was to write tests against the given application using [Jasmine](http:/
 1.  [Download](https://github.com/ronanmoris/frontend-nanodegree-feedreader) by clicking on the green button on the right (Clone or Download) or [Clone](https://github.com/ronanmoris/frontend-nanodegree-feedreader) the Repository.
 2.  Open the `index.html` file in your browser.
 
-##Implemented Tests
+## Implemented Tests
 
 - make sure that there are feeds to be displayed.
 - make sure that feeds have a name.
