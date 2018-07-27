@@ -45,10 +45,8 @@ $(
     });
 
     describe("The menu", function() {
-      /* test that ensures the menu element is hidden by default.
-        * You'll have to analyze the HTML and the CSS to determine
-        * how we're performing the hiding/showing of the menu element.
-        */
+      /* test that ensures the menu element is hidden by default. */
+
       it("should be hidden by default", function() {
         expect($("body").hasClass("menu-hidden")).toBe(true);
       });
